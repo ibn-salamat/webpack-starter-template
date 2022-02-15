@@ -2,4 +2,5 @@
 
 husky, eslint, link-staged, sass, svg, img, babel, prefixer, typescript
 
-import components
+import components by @
+import pages by @c
