@@ -4,7 +4,8 @@
   "description": "husky, link-staged, sass, svg, img, babel, prefixer, typescript",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "dev": "npx webpack-dev-server"
   },
   "repository": {
     "type": "git",
