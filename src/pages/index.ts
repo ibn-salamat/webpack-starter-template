@@ -1,4 +1,6 @@
-const type = "ts";
-let a = 'dd'
+const component = {
+    type: "ts",
+    name: "pages"
+}
 
-export default type;
+export default component;

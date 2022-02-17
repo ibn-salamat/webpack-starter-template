@@ -1,4 +1,5 @@
-import importType from "./pages";
-console.log(importType);
+import pages from "./pages";
 
-console.log(3)
+const newObj = {...pages, name: "src"}
+
+console.log(newObj)
