@@ -31,5 +31,6 @@ module.exports = {
         static: path.resolve(__dirname, 'public'),
         compress: true,
         hot: true
-    }
+    },
+    devtool: 'source-map', 
 }
