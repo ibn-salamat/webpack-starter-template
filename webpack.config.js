@@ -18,11 +18,13 @@ const config = {
         ]
     },
     resolve: {
-        extensions: ['.tsx', '.ts', '.js'],
-        importsFields: ['pages'],
+        importsFields: ['pages', '@'],
         alias: {
-            pages: path.resolve(__dirname, './src/pages'),
+            pages: path.resolve(__dirname, 'src/pages'),
+            '@': path.resolve(__dirname, 'src'),
+
         },
+        extensions: ['.tsx', '.ts', '.js'],
     },
     plugins: [
         new HtmlWebpackPlugin({

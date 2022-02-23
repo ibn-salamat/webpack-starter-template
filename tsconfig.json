@@ -7,6 +7,12 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
-    "sourceMap": true
-  }
+    "sourceMap": true,
+    "paths": {
+      "pages": [
+          "./src/pages"
+      ],
+      "@/*": ["./src/*"]
+    }
+  },
 }
