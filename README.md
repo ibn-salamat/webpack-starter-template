@@ -19,5 +19,5 @@ html.page
 react:
 react component, module css files
 
-import components by @
-import pages by @
++ import components by @
++ import pages by @
