@@ -9,11 +9,20 @@ const config = {
                 test: /\.tsx?$/,
                 use: ["babel-loader", "ts-loader"],
                 exclude: /node_modules/,
+            },
+            {
+                test: /\.jsx?$/,
+                use: ["babel-loader"],
+                exclude: /node_modules/,
             }
         ]
     },
     resolve: {
         extensions: ['.tsx', '.ts', '.js'],
+        importsFields: ['pages'],
+        alias: {
+            pages: path.resolve(__dirname, './src/pages'),
+        },
     },
     plugins: [
         new HtmlWebpackPlugin({
