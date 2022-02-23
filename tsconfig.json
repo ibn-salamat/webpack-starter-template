@@ -10,7 +10,10 @@
     "sourceMap": true,
     "paths": {
       "pages": [
-          "./src/pages"
+        "./src/pages"
+    ],
+      "pages/*": [
+          "./src/pages/*"
       ],
       "@/*": ["./src/*"],
     }
