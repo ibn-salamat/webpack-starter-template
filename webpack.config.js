@@ -1,7 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-module.exports = {
+const config = {
     entry: path.resolve(__dirname, "src", "index.tsx"),
     module: {
         rules: [
@@ -32,5 +32,13 @@ module.exports = {
         compress: true,
         hot: true
     },
-    devtool: 'source-map', 
+}
+
+module.exports =  (env, argv) => {
+    if (argv.mode === 'development') {
+        console.log('dev');
+        config.devtool = "source-map"
+    }
+    
+    return config; 
 }
