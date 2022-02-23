@@ -1,6 +1,15 @@
 # webpack-starter-template
 
-husky, eslint, link-staged, sass, svg, img, babel, prefixer, typescript, json
+husky, 
+eslint, 
+link-staged, 
+sass, 
+svg, 
+img, 
+babel, 
+prefixer, 
+typescript, 
+json
 
 ------
 html.component
