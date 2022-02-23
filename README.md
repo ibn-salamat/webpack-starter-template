@@ -6,9 +6,9 @@ link-staged,
 sass, 
 svg, 
 img, 
-babel, 
++ babel
 prefixer, 
-typescript, 
++ typescript, 
 json
 
 ------
