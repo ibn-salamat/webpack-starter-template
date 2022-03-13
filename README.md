@@ -17,7 +17,7 @@ html.page
 
 ------
 react:
-react component, module css files
+react component, module css files, candy-loader
 
 + import components by @
 + import pages by @
