@@ -3,11 +3,12 @@
 husky, 
 eslint, 
 link-staged, 
+
 sass, 
+prefixer, 
 svg, 
 img, 
 + babel
-prefixer, 
 + typescript, 
 json
 
