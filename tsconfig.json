@@ -8,6 +8,8 @@
     "allowJs": true,
     "moduleResolution": "node",
     "sourceMap": true,
+    "baseUrl": "",
+    "declaration": true,
     "paths": {
       "pages": [
         "./src/pages"

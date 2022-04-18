@@ -1,4 +1,4 @@
-import { Home, About, Contact } from 'pages'
+import { Home, About, Contact } from "pages"
 
 const App = () => {
     return <>

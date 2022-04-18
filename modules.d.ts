@@ -1,2 +1,4 @@
-declare module "pages/index.tsx"
-declare module "@"
+declare module "pages" {
+  export * from "@/pages";
+}
+declare module "@";
