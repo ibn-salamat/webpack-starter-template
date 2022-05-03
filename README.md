@@ -1,8 +1,6 @@
 # webpack-starter-template
 
-husky, 
-eslint, 
-link-staged, 
+
 
 sass, 
 prefixer, 
@@ -13,12 +11,13 @@ img,
 json
 
 ------
-html.component
-html.page
+husky, 
+eslint, 
+link-staged,
 
 ------
 react:
-react component, module css files, candy-loader
+module css files, candy-loader
 
 + import components by @
 + import pages by @
