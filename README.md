@@ -13,6 +13,7 @@ json
 ------
 husky, 
 eslint, 
+prettier,
 link-staged,
 
 ------
