@@ -4,6 +4,8 @@
     "noImplicitAny": true,
     "module": "es6",
     "target": "esnext",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
