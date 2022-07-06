@@ -1,16 +1,16 @@
 sass, 
 prefixer, 
-+svg, 
-img, 
++ svg, 
++ img, 
 + babel
 + typescript, 
-+json
++ json
 
 ------
-+husky, 
-+eslint, 
-+prettier,
-+link-staged,
++ husky, 
++ eslint, 
++ prettier,
++ link-staged,
 
 ------
 react:
