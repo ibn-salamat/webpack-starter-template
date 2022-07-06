@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js --mode=production ",
-    "dev": "npx webpack-dev-server --mode=development"
+    "dev": "npx webpack-dev-server --mode=development",
+    "prepare": "husky install",
+    "lint": "eslint --fix"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,12 @@
   "bugs": {
     "url": "https://github.com/ibn-salamat/webpack-starter-template/issues"
   },
+  "lint-staged": {
+    "**/*.{ts,tsx}": [
+      "yarn lint",
+      "prettier --write"
+    ]
+  },
   "homepage": "https://github.com/ibn-salamat/webpack-starter-template#readme",
   "devDependencies": {
     "@babel/preset-react": "^7.16.7",
@@ -24,6 +32,8 @@
     "@types/react-dom": "^17.0.11",
     "babel-loader": "^8.2.3",
     "html-webpack-plugin": "^5.5.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.5",
     "webpack": "^5.69.0",
