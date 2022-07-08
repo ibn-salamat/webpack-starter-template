@@ -46,10 +46,11 @@ const config = {
     ]
   },
   resolve: {
-    importsFields: ['pages', '@'],
+    importsFields: ['@', 'pages', 'components'],
     alias: {
-      pages: path.resolve(__dirname, 'src/pages'),
       '@': path.resolve(__dirname, 'src'),
+      pages: path.resolve(__dirname, 'src/pages'),
+      components: path.resolve(__dirname, 'src/components'),
     },
     extensions: ['.tsx', '.ts', '.js'],
   },

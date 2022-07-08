@@ -1,7 +1,7 @@
 import data from './data.json'
 import { HeartIcon } from '@/assets/icons'
-import Bg from '@/assets/images/bg_1.jpeg'
 
+import Bg from '@/assets/images/bg_1.jpeg'
 import styles from './styles.module.sass'
 
 function TestComponent() {

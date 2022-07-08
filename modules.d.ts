@@ -1,7 +1,10 @@
+declare module '@'
 declare module 'pages' {
   export * from '@/pages'
 }
-declare module '@'
+declare module 'components' {
+  export * from '@/components'
+}
 
 declare module '*.svg' {
   const content: any
