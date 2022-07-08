@@ -35,7 +35,12 @@ const config = {
               modules: true,
             },
           },
-          'sass-loader'
+          {
+            loader: 'sass-loader',
+            options: {
+              additionalData: '@import "src/styles/global.sass"',
+            },
+          }
         ],
       },
     ]
