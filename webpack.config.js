@@ -24,6 +24,20 @@ const config = {
         issuer: /\.[jt]sx?$/,
         use: ['@svgr/webpack'],
       },
+      {
+        test: /\.s[ac]ss|css$/i,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+              modules: true,
+            },
+          },
+          'sass-loader'
+        ],
+      },
     ]
   },
   resolve: {
@@ -31,7 +45,6 @@ const config = {
     alias: {
       pages: path.resolve(__dirname, 'src/pages'),
       '@': path.resolve(__dirname, 'src'),
-
     },
     extensions: ['.tsx', '.ts', '.js'],
   },
